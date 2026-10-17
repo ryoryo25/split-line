@@ -1,0 +1,6 @@
+{
+  "name": "SplitLine — 画像縦n分割スタジオ",
+  "description": "JPG・PNG画像を縦方向（上下または左右）に指定したn等分・カスタム比率で瞬時に分割し、個別またはZIP一括保存できる高精度画像分割ツール。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
