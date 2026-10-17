@@ -4,18 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SplitLine — 画像縦n分割スタジオ</title>
-    <meta name="description" content="JPG・PNG画像を縦方向（上下または左右）に指定したn等分・カスタム比率で瞬時に分割し、個別またはZIP一括保存できる高精度画像分割ツール。" />
-    <meta property="og:title" content="SplitLine — 画像縦n分割スタジオ" />
-    <meta property="og:description" content="JPG・PNG画像を縦方向（上下または左右）に指定したn等分・カスタム比率で瞬時に分割し、個別またはZIP一括保存できる高精度画像分割ツール。" />
+    <meta
+      name="description"
+      content="JPG・PNG画像を縦方向（上下または左右）に指定したn等分・カスタム比率で瞬時に分割し、個別またはZIP一括保存できる高精度画像分割ツール。"
+    />
+    <meta name="theme-color" content="#0F172A" />
+
+    <!-- Favicons & Web App Manifest -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <!-- OpenGraph Social Share Metadata -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SplitLine — 画像縦n分割スタジオ" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:title" content="SplitLine — 画像縦n分割スタジオ" />
+    <meta
+      property="og:description"
+      content="JPG・PNG画像を縦方向（上下または左右）に指定したn等分・カスタム比率で瞬時に分割し、個別またはZIP一括保存できる高精度画像分割ツール。"
+    />
+    <meta property="og:image" content="./og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="SplitLine — JPG・PNG画像をブラウザ内で縦n分割・プレビュー・ZIP一括保存できるWebツール"
+    />
+
+    <!-- Twitter / X Card Metadata -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SplitLine — 画像縦n分割スタジオ" />
+    <meta
+      name="twitter:description"
+      content="JPG・PNG画像を縦方向（上下または左右）に指定したn等分・カスタム比率で瞬時に分割し、個別またはZIP一括保存できる高精度画像分割ツール。"
+    />
+    <meta name="twitter:image" content="./og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="SplitLine — JPG・PNG画像をブラウザ内で縦n分割・プレビュー・ZIP一括保存できるWebツール"
+    />
+
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SplitLine — 画像縦n分割スタジオ",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "inLanguage": "ja",
+        "description": "JPG・PNG画像を縦方向（上下または左右）に指定したn等分・カスタム比率で瞬時に分割し、個別またはZIP一括保存できる高精度画像分割ツール。",
+        "featureList": [
+          "スライダー・数値入力による2〜50分割の自由設定",
+          "分割前のカット線オーバーレイ＆ドラッグ位置調整プレビュー",
+          "ピース間隔（Gap / ホワイトスペース）設定とグリッドレイアウト・シミュレーション",
+          "100%クライアントサイド（ブラウザ内Canvas）処理・サーバー送信なし",
+          "個別ダウンロード・一括ZIPダウンロード・余白付きグリッド結合画像保存"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "JPY"
+        }
+      }
+    </script>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Noto+Sans+JP:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-

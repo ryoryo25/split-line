@@ -1,0 +1,26 @@
+{
+  "name": "SplitLine — 画像縦n分割スタジオ",
+  "short_name": "SplitLine",
+  "description": "JPG・PNG画像を縦方向（上下または左右）に指定したn等分・カスタム比率で瞬時に分割し、個別またはZIP一括保存できる高精度画像分割ツール。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0F172A",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
